@@ -1,0 +1,164 @@
+﻿
+body
+{
+    font-family: georgia,garamond,serif;
+    font-size: 20px;
+    background-color:lightgray;
+}
+.ao{
+    border:groove 10px;
+}
+
+
+div.container {
+    font-family: Candara;
+    font-size: large;
+}
+.oo {
+    font-family: Papyrus;
+    border:double 10px;
+
+}
+
+
+p {
+    line-height: 150%;
+    font-family: Andalus;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Forte;
+    color: darkred;
+    font-size:xx-large;
+}
+
+h2 {
+         font-family: Berlin Sans FB Demi;
+}
+h3
+{
+    font-family: Corbel Light;
+}
+
+
+.brand 
+{
+    padding: 40px;
+}
+
+ul
+{
+    color: darkslategray;
+}
+
+
+.content.pure-u-1.support_frame {
+    background-color: darksalmon;
+    border-top: 1px #D3D3D3 solid;
+    font-size: 10px;
+    line-height: 200px;
+    
+
+}
+
+.content.pure-u-1.picture_frame {
+    border-top: 4px darkslategray solid;
+    border-bottom:4px darkslategray solid;
+    border-left: 4px darkslategray solid;
+    border-right: 4px darkslategray solid;
+}
+
+
+
+
+.content.pure-u-1-3.support_frame {
+    background-color: darksalmon;
+    border-top: 1px #D3D3D3 solid;
+    font-size: 15px;
+    line-height: 200px;
+    
+}
+
+.content.pure-u-1-3.picture_frame {
+    border-top: 1px darkslategray solid;
+    border-bottom: 1px darkslategray solid;
+    border-left: 1px darkslategray solid;
+    border-right: 1px darkslategray solid;
+    padding: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+img.h {
+    border:double 10px;
+    width: 200px;
+    height: 200px;
+    border-color: rosybrown;
+} 
+
+img.o {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+img.f {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-top: 1px darkslategray solid;
+    border-bottom: 1px darkslategray solid;
+    border-left: 1px darkslategray solid;
+    border-right: 1px darkslategray solid;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:rosybrown;
+    padding: 30px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 10px;
+    text-align: center;
+}
+a {
+    outline-color: rosybrown;
+    background-color: transparent;
+    color:lightslategray;
+}
+
+img.w {
+    width: 500px;
+    height: 200px;
+    padding: 15px;
+    border-color: black;
+    border: groove 10px;
+}
+
+
+
+p {
+    line-height: 150%;
+}
+
+.header-next h1, .header-next h2, .header-next h3 {
+    text-align: center
+}
+
+.brand {
+    padding: 30px;
+}
+
+.call-to-action {
+    background: lightgray;
+    color: lightgray;
+}
+
+

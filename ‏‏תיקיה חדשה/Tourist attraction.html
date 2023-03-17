@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>Tourist arrtaction</title>
+    <link rel="stylesheet" href="customs.css">
+    <link rel="stylesheet" href="pure.css">
+    <link rel="stylesheet" href="custom1.css">
+    <link rel="stylesheet" href="popup.css">
+
+
+
+
+    <style>
+        hr {
+            border: ridge;
+        }
+    </style>
+
+
+
+    <style>
+
+        h1.a {
+            color: darkblue;
+        }
+    </style>
+
+    <style>
+
+        .container {
+            display: flex; /*מאפיין חובה להגדרת צורת הפריסה. */
+            flex-wrap: wrap; /*יתווסף פס גלילה לדף.*/
+            padding: 0 10px; /*    אפס פיקסלים ריפוד מעל ומתחת לטבלה ו 10 פיקסלים ריפוד מהשוליים בצדדים */
+        }
+
+        .column {
+            flex: 1; /* זה class קובע רוחב אחיד לעמודות - לאיברים המוגדרים עם */
+            padding: 20px 5px; /*    עשר פיקסלים ריפוד מעל ומתחת לעמודות ו 5 פיקסלים ריפוד מהשוליים בצדדים של כל עמודה  */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pure-menu pure-menu-open  pure-menu-horizontal" id="top-menu" style="background-color:rosybrown">
+        <ul>
+            <li><a class="oo" href="Tourist attraction.html" ; style=" font-size: medium">Home</a></li>
+            <li><a class="oo" href="Tourist by destination.html" ; style="font-size:medium">Tours by destnation</a></li>
+            <li><a class="oo" href="Tourist attraction.html" ; style="font-size:medium">compare prices</a></li>
+            <li><a class="oo" href="tourism  companies.html" ; style="font-size:medium">Tourism companies</a></li>
+            <li><a class="oo" href="attraction.html" ; style="font-size:medium">Atrraction</a></li>
+            <li><a class="oo" href="Tourist attraction.html" ; style="font-size:medium">Recommendtion</a></li>
+            <li><a class="oo" href="food.html" ; style="font-size:medium">Food</a></li>
+            <li><a class="oo" href="Tourist attraction.html" ; style="font-size:medium">Transport</a></li>
+            <li><a class="oo" href="Tourist attraction.html" ; style="font-size:medium">Stores</a></li>
+            <li><a class="oo" href="Gallery.html" ; style="font-size:medium">Gallery</a></li>
+            <li><a class="oo" href="fungame.html" ; style="font-size:medium">FunGame</a></li>
+
+
+        </ul>
+    </div>
+
+
+    <div class="pure-g-r">
+        <div class="pure-u-1">
+            <img src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\pic1.jpg" width="100%" height="300" alt="mainpic">
+        </div>
+    </div>
+
+
+    <br /><br />
+    <center>
+
+        <button onclick="myFunction()">click here</button>
+
+        <p id="demo"></p>
+        <script>
+            function myFunction() {
+                var txt;
+                var person = prompt("Please enter your name:", name);
+                if (person == null || person == "") {
+                    txt = "User cancelled the prompt.";
+                } else {
+                    txt = "Hello " + person + "! How are you today?";
+                }
+                document.getElementById("demo").innerHTML = txt;
+            }
+        </script>
+    </center>
+
+
+    <!--------------pure-g-r div---------------------------->
+    <div class="pure-g-r">
+        <!--------------1/2 left div---------------------------->
+        <div class="pure-u-1-2">
+            <div class="brand">
+                <div class="content pure-u-1  picture_frame">
+                    <div class="brand">
+                        <img src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\Recommendtion.jpg" width="800" height="300" alt="private">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------1/2 right div---------------------------->
+        <div class="pure-u-1-2">
+            <div class="brand">
+                <h1 id="Recommendtion">
+                    &hearts; Recommendtion&hearts;
+                </h1>
+
+                <p>
+                    Travel itinerary recommendation is an important but chal- lenging problem, due to the need to recommend captivating.<br />
+                    Places-of-Interest (POI) and construct these ...
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--------------pure-g-r div---------------------------->
+    <div class="pure-g-r">
+        <!--------------1/2 left div---------------------------->
+        <div class="pure-u-1-2">
+            <div class="brand">
+
+                <a href="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\Tourist by destination.html">
+                    <h1>&hearts; Tourist by destination&hearts; </h1>
+                </a>
+                <p>  The tourism industry has undergone rapid growth of unsurpassed nature over the last several decades. This has mainly been due to the advent of a 'borderless' world and increased information dissemination about the majestic sceneries throughout the world, with the southern African region being no exception.  </p>
+            </div>
+        </div>
+
+
+        <!--------------1/2 right div---------------------------->
+        <div class="pure-u-1-2">
+            <div class="brand">
+                <div class="content pure-u-1  picture_frame">
+
+                    <div class="brand">
+                        <img src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\destination.jpg" width="800" height="300" alt="private">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br /><br />
+
+    <center>
+        <div class="pure-g-r">
+            <div class="pure-u-1">
+                <img src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\attraction.jpg" width="100%" height="400" alt="private">
+            </div>
+        </div>
+    </center>
+
+    <center>
+        <br />
+        <a href="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\attraction.html">
+            <h1>
+                &hearts; Atrraction&hearts;
+            </h1>
+        </a>
+    </center>
+    <p style="margin:30px">
+        Discover the top attractions in destinations around the world, along with maps, and beautiful photos to inspire great ideas.<br />
+        PlanetWare has also been creating ...
+
+    </p>
+
+
+    <br /><br />
+
+    <div class="pure-g-r">
+        <div class="pure-u-1-2">
+            <div class="brand">
+                <div class="content pure-u-1 picture_frame">
+                    <div class="brand">
+                        <center>
+                            <h1> &hearts;compare prices &hearts; </h1>
+                        </center>
+                        <p>
+                            our site helps you to find offers and reviews  also compare prices between alot of company  quickly and easily.
+
+                        </p>
+                        <br />
+                    </div>
+                    <div class="brand">
+                        <center>
+                            <img src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\compare prices.jpg" width="800" height="300" alt="private">
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pure-u-1-2">
+            <div class="brand">
+                <div class="content pure-u-1 picture_frame">
+                    <div class="brand">
+                        <center>
+                            <a href="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\tourism  companies.html">
+
+                                <h1> &hearts; Tourism companies&hearts;</h1>
+                            </a>
+                        </center>
+
+                        <p>
+                            This list of major tourism companies includes the largest and most profitable tourism businesses,
+                            corporations, agencies, vendors and firms in the world.
+
+                        </p>
+
+                    </div>
+                    <div class="brand">
+                        <center>
+                            <img src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\tourism-travel-company.jpg" width="800" height="300" alt="private">
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br /> <br />
+    <div class="pure-g-r">
+        <div class="pure-u-1-3">
+            <div class="brand">
+                <div class="content pure-u-1 picture_frame">
+                    <div class="brand">
+                        <center>
+
+                            <img src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\food1.jpg" alt="private">
+                        </center>
+
+                        <center>
+                            <a href="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\food.html">
+                                <h1>
+                                    &hearts;Food&hearts;
+
+                                </h1>
+                            </a>
+                        </center>
+                        <p>
+                            If you are away from your country, you’ll need a few hints to not get lost in the wide range of tastes and flavors.<br />
+                            We’ll provide you with a list of the best destinations for food. <br />
+                            Which countries have the best foods in the world?<br />
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="pure-u-1-3">
+            <div class="brand">
+                <div class="content pure-u-1 picture_frame">
+                    <div class="brand">
+
+                        <center>
+                            <img src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\Transport.png" alt="private">
+                        </center>
+
+                        <center>
+                            <a>
+                                <h1>
+                                    &hearts;Transport &hearts;
+
+                                </h1>
+                            </a>
+                        </center>
+                        <p>
+                            Transport and travel information to help you plan your public transport trip around country you will be visting by metro, train, bus, ferry, light rail and coach. <br />
+                            Trip Planner, travel alerts, ...
+                            <br />
+                            <br />
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="pure-u-1-3">
+            <div class="brand">
+                <div class="content pure-u-1 picture_frame">
+                    <div class="brand">
+
+                        <center>
+                            <img src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\stores.jpg" alt="private">
+                        </center>
+                        <center>
+                            <h1>
+                                &hearts;Stores &hearts;
+                            </h1>
+                        </center>
+                        <p>
+                            If you are away from your country, you’ll need a few hints to not get lost in the wide range of tastes and flavors.<br />
+                            We’ll provide you with a list of the best destinations for food. <br />
+                            Which countries have the best foods in the world?<br />
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content pure-u-3  support_frame">
+        <div class="brand">
+            <div class="pure-u-3">
+                <h3 style="font-family:Monotype Corsiva ;font-size:xx-large">tourist</h3>
+                <p style="font-family:Monotype Corsiva ; font-size:x-large">About Us  &rarr;</p>
+                <p style="font-family:Monotype Corsiva ; font-size:x-large">Contact us &rarr;  TouristCompany@gmail.com</p>
+                <p style="font-family:Monotype Corsiva ; font-size:x-large">
+                    <img class="o" src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\icon1.png" />
+                    <img class="o" src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\icon2.png" />
+                    <img class="o" src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\icon3.jpg" />
+                </p>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div align="right"> <a href="#"> <img class="o" src="E:\לימודי תוכנה\simster b שנה א\ul-angular 1\pictures\to the top.png"> </a> <br /> </div>
+
+</body>
+</html>

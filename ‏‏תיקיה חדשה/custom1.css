@@ -1,0 +1,17 @@
+﻿
+
+
+.content.pure-u-3.support_frame {
+    background-color: rosybrown;
+    border-top: 1px #D3D3D3 solid;
+    font-size: 15px;
+    line-height: 100%;
+}
+
+.content.pure-u-3.picture_frame {
+    background-color: rosybrown;
+    border-top: 1px #F0F0FF solid;
+    border-bottom: 1px #A9A9A9 solid;
+    border-left: 1px #F0F0FF solid;
+    border-right: 1px #F0F0FF solid;
+}
